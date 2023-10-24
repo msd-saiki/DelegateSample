@@ -16,7 +16,7 @@ namespace DelegateSample
     public partial class Form2 : Form
     {
 
-        private IEnumerable<EmpModel> EmpList { get; set; }
+        private IEnumerable<EmpModel> EmpList;
 
         private SelectDelegate callback;
 
